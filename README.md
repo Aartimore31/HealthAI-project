@@ -56,7 +56,7 @@ HealthAI/
 
 ### How to Run Locally
 1. Clone the repository
-git clone https://github.com/Aartimore31/HealthAI.git
+git clone https://github.com/Aartimore31/HealthAI-project.git
 2. Install required packages
 3. 3. Start the application  
 
