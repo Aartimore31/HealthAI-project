@@ -1,0 +1,127 @@
+/* Container Styling */
+.health-container {
+  width: 500px;
+  margin: 60px auto;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Title Animation */
+.health-container h2 {
+  text-align: center;
+  color: #00796b;
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  animation: slideDown 0.8s ease;
+}
+
+/* Form Inputs */
+.health-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.health-container input,
+.health-container textarea {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #b2dfdb;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.health-container input:focus,
+.health-container textarea:focus {
+  border-color: #26a69a;
+  box-shadow: 0 0 10px rgba(38, 166, 154, 0.3);
+  transform: scale(1.02);
+}
+
+/* Add Button */
+.health-container button {
+  background: linear-gradient(135deg, #26a69a, #00796b);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.health-container button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #00796b, #004d40);
+  box-shadow: 0 4px 12px rgba(0, 121, 107, 0.4);
+}
+
+/* List Container */
+.health-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+/* Each List Item */
+.health-container li {
+  background: white;
+  border: 1px solid #c8e6c9;
+  border-left: 6px solid #26a69a;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  animation: slideUp 0.6s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.health-container li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Name Highlight */
+.health-container li b {
+  color: #00796b;
+  font-size: 16px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,102 @@
+.getstarted-container {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Hero Section */
+.gs-hero {
+  margin-top: 2rem;
+  animation: slideDown 1.5s ease-in-out;
+}
+.gs-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00e5ff;
+}
+.gs-subtitle {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1.5rem;
+  opacity: 0.8;
+}
+.gs-btn {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.gs-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00e5ff;
+}
+.glow {
+  animation: glowPulse 2s infinite alternate;
+}
+
+/* Features Section */
+.gs-section-title {
+  margin: 3rem 0 1.5rem;
+  font-size: 2rem;
+  color: #ffcc70;
+}
+.gs-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+.gs-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(10px);
+}
+.gs-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.6);
+}
+.gs-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Final Section */
+.gs-final {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: linear-gradient(90deg, rgba(0, 229, 255, 0.15), rgba(0, 255, 163, 0.15));
+  border-radius: 20px;
+  animation: slideUp 1.5s ease-in-out;
+}
+.gs-final h2 {
+  color: #00ffcc;
+  font-size: 2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes glowPulse {
+  from { box-shadow: 0 0 10px #00e5ff; }
+  to { box-shadow: 0 0 25px #00ffcc; }
+}
