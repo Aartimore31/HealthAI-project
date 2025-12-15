@@ -1,50 +1,78 @@
-<h2 align="center">Hi 👋, I'm Aaru</h2>
-<h4 align="center">B.Tech IT Student | Aspiring Software Developer | AI & MERN Enthusiast</h4>
+## HealthAI – Smart Healthcare Web Application
+
+### Overview
+HealthAI is a healthcare-focused web application that I developed to explore how artificial intelligence can support basic health awareness and monitoring.  
+The project helps users understand common symptoms, keep track of health-related data, and follow healthier routines using a simple and user-friendly interface.
 
 ---
 
-### 🚀 About Me
-- 🎓 B.Tech IT student from India
-- 🔭 Currently working on **HealthAI – AI-based Healthcare Project**
-- 🌱 Learning **AI, Machine Learning & Full Stack Development**
-- 💡 Interested in **MERN Stack, AI-powered Applications**
-- 🎯 Actively preparing for **Software Developer Placements**
+### Why this project?
+Many people delay medical attention because they are unsure whether their symptoms are serious.  
+This project aims to provide **initial guidance and awareness**, not medical diagnosis, by combining basic AI logic with full-stack development.
 
 ---
 
-### 🧠 Featured Project
-🔹 **HealthAI**
-> An AI-powered healthcare assistant that helps users understand symptoms, track health data, and get smart insights.
-
-**Tech Used:** React, Node.js, MongoDB, Python, ML
-
-👉 Check repository for code & documentation
+### What HealthAI Does
+- Allows users to enter symptoms and get basic AI-based health suggestions  
+- Stores health-related data securely for future reference  
+- Helps users track medicines and daily health habits  
+- Encourages preventive care and healthy lifestyle choices  
 
 ---
 
-### 🤝 Open to
-- Collaborating on **MERN / AI projects**
-- Learning from real-world development work
+### Key Features
+- AI-based symptom guidance  
+- Health data storage and tracking  
+- Medicine reminder support  
+- Clean and simple user interface  
+- Secure user authentication  
 
 ---
 
-### 📫 Connect with Me
-- 📧 Email: **artimore005@gmail.com**
-- 💼 LinkedIn: https://linkedin.com/in/aarti-more
+### Technologies Used
+- Frontend: React.js, HTML, CSS, JavaScript  
+- Backend: Node.js, Express.js  
+- Database: MongoDB  
+- AI / Logic: Python, basic Machine Learning concepts  
+- Tools: Git, GitHub, Postman  
 
 ---
 
-### 🛠️ Languages & Tools
-<p align="left">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40"/>
-</p>
+### What I Learned from this Project
+- How to design and structure a full-stack application  
+- Connecting frontend with backend APIs  
+- Working with MongoDB for real data storage  
+- Applying AI concepts in a practical project  
+- Writing clean and readable project documentation  
 
 ---
 
-⭐ *Consistent learner | Real projects | Placement-focused*
+Project Structure
+HealthAI/
+├── frontend/
+├── backend/
+├── ml-model/
+└── README.md
+
+### How to Run Locally
+1. Clone the repository
+git clone https://github.com/Aartimore31/HealthAI.git
+2. Install required packages
+3. 3. Start the application  
+
+
+---
+
+### Future Improvements
+- Add doctor consultation module  
+- Improve accuracy of AI suggestions  
+- Create a mobile-friendly version  
+- Integrate wearable health data  
+
+---
+
+### Final Note
+This project reflects my interest in **healthcare technology, AI, and full-stack development**.  
+It was built as a learning-focused project and demonstrates my ability to convert an idea into a working application.
+
+### Project Structure
